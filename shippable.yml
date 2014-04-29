@@ -2,7 +2,10 @@ language: java
 jdk:
    - oraclejdk7
    - openjdk7
-   
+addons:
+  firefox: "21.0"
+before_script: 
+  - firefox --version  
 script: 
    - ant coverage
 
