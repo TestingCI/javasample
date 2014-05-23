@@ -6,3 +6,6 @@ jdk:
 script: 
    - ant coverage
 
+matrix:
+  include:
+   - jdk: openjdk7
