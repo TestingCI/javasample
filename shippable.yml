@@ -9,5 +9,5 @@ script:
 
 
 matrix:
-  include:
-   - jdk: openjdk7
+  exclude:
+   - jdk: oraclejdk7
