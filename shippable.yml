@@ -1,12 +1,13 @@
 language: java
+env:
+ - secure:aaaaaaaaaaaaaa
+
 jdk:
    - oraclejdk7
    - oraclejdk8
    
 script: 
    - ant coverage
-
-
 
 matrix:
   exclude:
